@@ -1,0 +1,13 @@
+1. Select first_name as EmpName from Employeeinfo
+2. SELECT COUNT(department) FROM Employeeinfo WHERE department = 'HR';
+3. SELECT CURRENT_DATE AS CurrentDate;
+4. SELECT SUBSTRING(first_name, 1, 4) AS FirstFourCharacters FROM EmployeeInfo;
+5. SELECT SUBSTRING(Address, 1, CHARINDEX('(', Address) - 1) AS place_name FROM Employeeinfo;
+6. create table Employeeinfo (employee_id integer, first_name varchar2(20),last_name varchar2(20),department varchar2(25), project varchar2(30), address varchar2(30), DOB integer, gender varchar2(30)); INSERT INTO Employeeinfo (employee_id, first_name, last_name, department, project, address, DOB, gender) VALUES ('1', 'Sanjay', 'Mehra', 'HR', 'P1', 'Hyderabad(HYD)','01/12/1976', 'M'), ('2', 'Ananya', 'Mishra', 'Admin', 'P2', 'Delhi(DEL)', '02/05/1968', 'F'), ('3', 'Rohan', 'Diwan', 'Account', 'P3', 'Mumbai(BOM)', '01/01/1980', 'M'), ('4', 'Sonia', 'Kulkarni', 'HR', 'P1', 'Hyderabad(HYD)', '02/05/1992', 'F'), ('5', 'Ankit', 'Kapoor', 'Admin', 'P2', 'Delhi(DEL)', '03/07/1994', 'M');
+create table EmployeePosition (EmpID integer, EmpPosition varchar2(30), DateOfJoining integer, Salary integer); INSERT INTO EmployeePosition (EmpID, EmpPosition, DateOfJoining, Salary) VALUES ('1', 'Manager', '01/05/2022', '500000'), ('2', 'Executive', '02/05/2022', '75000'), ('3', 'Manager', '01/05/2022', '90000'), ('2', 'Lead', '02/05/2022', '85000'), ('1','Executive','01/05/2022','300000');
+7. SELECT * FROM EmployeePosition WHERE Salary BETWEEN 50000 AND 100000;
+8. SELECT first_name FROM Employeeinfo WHERE first_name LIKE 'S%';
+9. Select Salary from EmployeePosition LIMIT 5
+10. SELECT first_name || ' ' || last_name AS FullName FROM EmployeeInfo;
+
+
