@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Simple HTML-XML Suite">
+
+    <test name = "Simple HTML-XML test">
+    <classes>
+            <class name="Finalproject.question1"/>-->
+           <class name="Finalproject.question2"/>-->
+           <class name="Finalproject.question3"/>-->
+            <class name="Finalproject.question4"/>-->
+            <class name="Finalproject.question5"/>-->
+            <class name="Finalproject.question6"/>-->
+           <class name="Finalproject.question7"/>-->
+           <class name="Finalproject.question8"/>-->
+            <class name="Finalproject.question9"/>-->
+            <class name="Finalproject.question10"/>-->
+        <class name="Finalproject.question11"/>-->
+        </classes>
+      </test>
+  </suite>
